@@ -1,8 +1,8 @@
 {
-    "name": "zepluf/zepluf-installer",
+    "name": "zepluf/installer",
     "type": "composer-installer",
     "description": "Composer installer for ZePLUF addons.",
-    "homepage": "http://github.com/zepluf/zepluf-installer",
+    "homepage": "http://github.com/zepluf/installer",
     "license": "custom",
     "authors": [
         {
