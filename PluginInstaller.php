@@ -13,7 +13,7 @@ namespace Zepluf\Installer\Plugin;
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
 
-class Installer extends LibraryInstaller {
+class PluginInstaller extends LibraryInstaller {
     /**
      * {@inheritDoc}
      */

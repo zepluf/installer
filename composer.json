@@ -10,5 +10,8 @@
             "email": "vunguyen@rubikin.com",
             "homepage": "http://rubikin.com"
         }
-    ]
+    ],
+    "extras" : {
+        "class": "ZePLUF\\Installer\\PluginInstaller"
+    }
 }
