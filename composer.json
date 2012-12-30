@@ -1,0 +1,14 @@
+{
+    "name": "zepluf/zepluf-installer",
+    "type": "composer-installer",
+    "description": "Composer installer for ZePLUF addons.",
+    "homepage": "http://github.com/zepluf/zepluf-installer",
+    "license": "custom",
+    "authors": [
+        {
+            "name": "Raine Ng",
+            "email": "vunguyen@rubikin.com",
+            "homepage": "http://rubikin.com"
+        }
+    ]
+}
