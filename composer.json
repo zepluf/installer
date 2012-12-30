@@ -11,7 +11,12 @@
             "homepage": "http://rubikin.com"
         }
     ],
+    "autoload": {
+        "psr-0": {
+            "Zepluf\\Composer": ""
+        }
+    },
     "extra": {
-        "class": "Zepluf\\Installer\\PluginInstaller"
+        "class": "Zepluf\\Composer\\PluginInstaller"
     }
 }

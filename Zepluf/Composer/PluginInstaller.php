@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Zepluf\Installer;
+namespace Zepluf\Composer;
 
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
