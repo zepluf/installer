@@ -11,7 +11,7 @@
             "homepage": "http://rubikin.com"
         }
     ],
-    "extras" : {
+    "extra" : {
         "class": "ZePLUF\\Installer\\PluginInstaller"
     }
 }
