@@ -18,5 +18,6 @@
     },
     "extra": {
         "class": "Zepluf\\Composer\\PluginInstaller"
-    }
+    },
+    "target-dir": "Zepluf/Composer"
 }
