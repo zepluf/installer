@@ -18,14 +18,14 @@ class PluginInstaller extends LibraryInstaller {
      * {@inheritDoc}
      */
     public function getInstallPath(PackageInterface $package) {
-        $prefix = substr ($package->getPrettyName (), 0, 17);
+        $prefix = substr ($package->getPrettyName(), 0, 14);
         if ('zepluf/plugin-' !== $prefix) {
             throw new \InvalidArgumentException(
-                'Unable to install plugin, ZePLUF plugin package names  should always begin with "zepluf/plugin-"'
+                'Unable to install plugin ' . $package->getPrettyName() . ', ZePLUF plugin package names  should always begin with "zepluf/plugin-"'
             );
         }
 
-        return 'app/plugins/'.substr($package->getPrettyName(), 17);
+        return 'app/plugins/'.substr($package->getPrettyName(), 14);
     }
 
     /**
