@@ -25,7 +25,7 @@ class PluginInstaller extends LibraryInstaller {
             );
         }
 
-        return 'app/plugins/'.substr($package->getPrettyName(), 14);
+        return 'app/plugins/'. $package->getTargetDir();
     }
 
     /**
